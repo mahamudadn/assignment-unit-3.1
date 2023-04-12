@@ -9,7 +9,7 @@ console.log('Animals are: ', animalArray); //
 
 // 1.a. TODO: Make an array with some favorite foods
 
-let favoriteFoods = ['soor', 'piza', 'pasta', 'rice'];
+let favoriteFoods = ['soor', 'piza',  'pasta', 'rice'];
 
 
 
@@ -114,6 +114,13 @@ console.log(reversed_favoriteFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+
+console.log(favoriteFoods.toString());
+console.log(favoriteFoods.join(","));
+
+
+
+
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
