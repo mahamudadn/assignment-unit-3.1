@@ -116,7 +116,7 @@ console.log(reversed_favoriteFoods);
 //     eg "tacos and pizza and pasta". Log the string.
 
 console.log(favoriteFoods.toString());
-console.log(favoriteFoods.join(","));
+
 
 
 
