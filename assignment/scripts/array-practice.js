@@ -49,7 +49,7 @@
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
 
-    animalArray[animalArray.length - 1]
+    console.log('the last animal in the array length ' , animalArray[animalArray.length - 1])
 
 
 // 4. Adding & Removing Array Items
