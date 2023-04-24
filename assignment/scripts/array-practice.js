@@ -132,5 +132,5 @@
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
-let favoriteFoodsAndAnimals = [animalArray + favoriteFoods]
+let favoriteFoodsAndAnimals = [...animalArray, ...favoriteFoods]
 console.log('My favorite animals and foods are:', favoriteFoodsAndAnimals)
